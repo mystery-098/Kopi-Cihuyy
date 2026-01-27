@@ -136,6 +136,12 @@
     .card-content p {
       font-size: 14px;
       color: #555;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #3e2f23;
       margin-bottom: 15px;
     }
     .order-btn {
@@ -181,87 +187,88 @@
 </head>
 <body>
 
-  <header>
-    <h1>Mystery Coffee</h1>
-    <nav>
-      <a href="#home">Beranda</a>
-      <a href="#about">Tentang</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Kontak</a>
-    </nav>
-  </header>
+<header>
+  <h1>Mystery Coffee</h1>
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+</header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Rasakan Cita Rasa Kopi Asli Indonesia</h1>
-      <p>Dari biji pilihan, diseduh dengan cinta dan kehangatan.</p>
-      <a href="#menu">Lihat Menu</a>
-    </div>
-  </section>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Rasakan Cita Rasa Kopi Asli Indonesia</h1>
+    <p>Dari biji pilihan, diseduh dengan cinta dan kehangatan.</p>
+    <a href="#menu">Lihat Menu</a>
+  </div>
+</section>
 
-  <section id="about" class="about">
-    <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03" alt="Tentang Kami">
-    <div class="about-text">
-      <h2>Tentang Kami</h2>
-      <p>Teriar Coffee berdiri dengan semangat memperkenalkan kekayaan rasa kopi Indonesia ke seluruh dunia. Kami menggunakan biji kopi pilihan dari berbagai daerah seperti Gayo, Toraja, dan Kintamani, disangrai dengan teknik terbaik untuk menghasilkan cita rasa yang khas.</p>
-    </div>
-  </section>
+<section id="about" class="about">
+  <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03" alt="Tentang Kami">
+  <div class="about-text">
+    <h2>Tentang Kami</h2>
+    <p>Teriar Coffee berdiri dengan semangat memperkenalkan kekayaan rasa kopi Indonesia ke seluruh dunia.</p>
+  </div>
+</section>
 
-  <section id="menu" class="menu">
-    <h2>Menu Kami</h2>
-    <div class="menu-grid">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Kopi Arabika">
-        <div class="card-content">
-          <h3>Kopi Arabika</h3>
-          <p>Rasa lembut dengan aroma khas pegunungan.</p>
-          <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20saya%20ingin%20pesan%20Kopi%20Arabika" target="_blank">Pesan via WhatsApp</a>
-        </div>
-      </div>
+<section id="menu" class="menu">
+  <h2>Menu Kami</h2>
+  <div class="menu-grid">
 
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Kopi Robusta">
-        <div class="card-content">
-          <h3>Kopi Robusta</h3>
-          <p>Rasa kuat dan pekat, cocok untuk pecinta kopi sejati.</p>
-          <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20saya%20ingin%20pesan%20Kopi%20Robusta" target="_blank">Pesan via WhatsApp</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Kopi Gayo">
-        <div class="card-content">
-          <h3>Kopi Gayo</h3>
-          <p>Kopi premium dari Aceh dengan cita rasa khas dan aroma kuat.</p>
-          <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20saya%20ingin%20pesan%20Kopi%20Gayo" target="_blank">Pesan via WhatsApp</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Kopi Toraja">
-        <div class="card-content">
-          <h3>Kopi Toraja</h3>
-          <p>Rasa kompleks dengan sentuhan rempah dan cokelat.</p>
-          <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20saya%20ingin%20pesan%20Kopi%20Toraja" target="_blank">Pesan via WhatsApp</a>
-        </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Kopi Arabika">
+      <div class="card-content">
+        <h3>Kopi Arabika</h3>
+        <p>Rasa lembut dengan aroma khas pegunungan.</p>
+        <p class="price">Rp 25.000</p>
+        <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20Teriar%20Coffee,%20saya%20ingin%20pesan%20Kopi%20Arabika" target="_blank">Pesan via WhatsApp</a>
       </div>
     </div>
-  </section>
 
-  <section id="contact" class="contact">
-    <h2>Hubungi Kami</h2>
-    <p>Ingin memesan atau bertanya lebih lanjut? Kami siap melayani Anda.</p>
-    <a href="https://wa.me/6283189272416?text=Halo%20Mystery%20Coffee,%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" target="_blank">Chat via WhatsApp</a>
-  </section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Kopi Robusta">
+      <div class="card-content">
+        <h3>Kopi Robusta</h3>
+        <p>Rasa kuat dan pekat, cocok untuk pecinta kopi sejati.</p>
+        <p class="price">Rp 22.000</p>
+        <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20Teriar%20Coffee,%20saya%20ingin%20pesan%20Kopi%20Robusta" target="_blank">Pesan via WhatsApp</a>
+      </div>
+    </div>
 
-  <footer>
-    <p>© 2026 Teriar Coffee | Dibuat dengan cinta dan secangkir kopi hangat ☕</p>
-  </footer>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Kopi Gayo">
+      <div class="card-content">
+        <h3>Kopi Gayo</h3>
+        <p>Kopi premium dari Aceh dengan cita rasa khas.</p>
+        <p class="price">Rp 30.000</p>
+        <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20Teriar%20Coffee,%20saya%20ingin%20pesan%20Kopi%20Gayo" target="_blank">Pesan via WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13" alt="Kopi Toraja">
+      <div class="card-content">
+        <h3>Kopi Toraja</h3>
+        <p>Rasa kompleks dengan sentuhan rempah dan cokelat.</p>
+        <p class="price">Rp 32.000</p>
+        <a class="order-btn" href="https://wa.me/6283189272416?text=Halo%20Teriar%20Coffee,%20saya%20ingin%20pesan%20Kopi%20Toraja" target="_blank">Pesan via WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Hubungi Kami</h2>
+  <p>Ingin memesan atau bertanya lebih lanjut? Kami siap melayani Anda.</p>
+  <a href="https://wa.me/6283189272416?text=Halo%20Teriar%20Coffee,%20saya%20ingin%20bertanya%20tentang%20produk%20Anda" target="_blank">Chat via WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Teriar Coffee | Dibuat dengan cinta dan secangkir kopi hangat ☕</p>
+</footer>
 
 </body>
-
 </html>
-
-
-
-
